@@ -1,0 +1,8 @@
+{
+  "name": "shoppingmall",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix server run dev"
+  }
+}
