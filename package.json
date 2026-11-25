@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npm --prefix server run dev"
+    "dev": "npm --prefix server run dev",
+    "start": "npm --prefix server start",
+    "heroku-postbuild": "npm --prefix server ci --omit=dev"
   }
 }
